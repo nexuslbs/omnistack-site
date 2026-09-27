@@ -22,6 +22,7 @@ h3 { font-size:1rem; margin:1.2rem 0 .4rem; }
 .checkout { margin:1.2rem 0; padding:.9rem 1rem; border:1px solid var(--accent); border-radius:6px;
             background:#f2faf7; font-family:Arial,Helvetica,sans-serif; font-size:.9rem; }
 .checkout a { color:var(--accent); font-weight:bold; word-break:break-all; }
+.checkout.sandbox { border-color:#c79100; background:#fff8e6; }
 ul.claims { list-style:none; padding-left:0; margin:.4rem 0; }
 ul.claims li { margin:.45rem 0; padding-left:1.1rem; position:relative; }
 ul.claims li:before { content:"\25AA"; color:var(--accent); position:absolute; left:0; }
@@ -47,7 +48,7 @@ footer { margin-top:2.5rem; border-top:1px solid var(--line); padding-top:.8rem;
 <p class="target">Duolingo, Inc. <span>duolingo.com</span></p>
 <p class="meta">Prepared by OmniStack &middot; generated 2026-09-27T04:45:00Z &middot; 14 sources across 13 domains &middot; audience: founder of a 5-person B2B outbound agency selling research and enablement to edtech and consumer-app companies</p>
 </header>
-<div class="checkout"><strong>Pay this invoice</strong> (provider: test)<br>Checkout ID: MOCKCO_20260927051938_0001<br>Checkout link: <a href="http://127.0.0.1:8799/pay/MOCKCO_20260927051938_0001">http://127.0.0.1:8799/pay/MOCKCO_20260927051938_0001</a></div>
+<div class="checkout sandbox" data-sandbox="true" id="checkout-sandbox"><strong>SANDBOX PLACEHOLDER &mdash; no real payment is possible from this page.</strong><br>This delivered brief was generated with the local test checkout mock (provider: test), not a live payment provider, so no money can be collected here. Local test mock id: <code>MOCKCO_20260927211931_0001</code>. The loopback mock URL is intentionally not rendered as a checkout link. A live checkout link appears automatically once a merchant-of-record provider key is configured (for example <code>PADDLE_API_KEY</code> + <code>PADDLE_PRICE_ID</code>, or <code>STRIPE_SECRET_KEY</code>) and <code>deliver</code> is re-run with that provider.</div>
 <section><h2>ICP fit</h2><div class="icp"><strong>medium</strong> &mdash; Duolingo is a large listed company rather than the SMB ICP this product targets; it is used as the demo fixture because every claim can be verified from reachable public sources, and its B2B lines still make it a legitimate outbound target.</div></section>
 <section id="company_overview">
 <h2>Company overview</h2>

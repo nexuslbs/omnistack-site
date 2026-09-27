@@ -1,0 +1,9 @@
+# Cloudflare Pages serves /x.html with a 308 redirect to /x. Keep the
+# canonical .html URLs working directly (proxy, status 200).
+/p3/demo-fixture/brief.html /p3/demo-fixture/brief 200
+/p3/pipo-saude/brief.html /p3/pipo-saude/brief 200
+/p3/37signals/brief.html /p3/37signals/brief 200
+/p3/demo-fixture/invoice.html /p3/demo-fixture/invoice 200
+/p3/pipo-saude/invoice.html /p3/pipo-saude/invoice 200
+/p3/37signals/invoice.html /p3/37signals/invoice 200
+/p1/index.html /p1/ 200

@@ -8,6 +8,7 @@
   },
   "date": "2026-09-27",
   "page": "pipo-saude/brief.html",
-  "checkout_url": "http://127.0.0.1:8799/pay/MOCKCO_20260927052123_0001",
-  "provider": "test"
+  "checkout_url": null,
+  "provider": "test",
+  "checkout_sandbox": true
 }
