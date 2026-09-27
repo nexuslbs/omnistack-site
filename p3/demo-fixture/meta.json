@@ -1,0 +1,13 @@
+{
+  "slug": "demo-fixture",
+  "target": "Duolingo, Inc.",
+  "domain": "duolingo.com",
+  "price": {
+    "amount": 150,
+    "currency": "USD"
+  },
+  "date": "2026-09-27",
+  "page": "demo-fixture/brief.html",
+  "checkout_url": "http://127.0.0.1:8799/pay/MOCKCO_20260927051938_0001",
+  "provider": "test"
+}

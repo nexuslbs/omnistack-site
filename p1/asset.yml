@@ -1,0 +1,45 @@
+# asset.yml v1 - rendered by `python3 -m assetpipeline scaffold`.
+# Do not hand-edit the fields the pipeline owns; see docs/PIPELINE-CONTRACT.md.
+schema_version: 1
+slug: cron-explain
+title: "Cron Explain"
+class: micro_api
+state: scaffolded
+owner: operator
+created: 2026-09-27
+hypothesis: "Backend and DevOps developers who paste a cron expression into an API want a plain-language description and the next five run times, with no account, no stored input, and no key."
+signal_source: signals_search
+signal_ref: research/asset-pick-2026-09-27.md
+
+deploy:
+  target: cloudflare
+  url: https://cron-explain.SUBDOMAIN.workers.dev
+  endpoint: null
+  custom_domain: null
+
+monetization:
+  model: none
+  checkout: null
+
+limits:
+  usd_max: 5.00
+  tokens_max: 400000
+  human_minutes_max: 180
+  publish_requires_approval: true
+
+kill_rule:
+  metric: api_calls_7d
+  operator: "<"
+  threshold: 25
+  grace_days: 30
+  escalate_after_days: 120
+
+measurement:
+  source: cloudflare
+  kind: api_calls_7d
+
+build:
+  command: "python3 test_app.py && python3 test_cron.py"
+
+run:
+  command: "python3 app.py --host 127.0.0.1 --port 8080"

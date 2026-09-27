@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cron Explain</title>
+  <meta name="description" content="Explain a cron expression in plain language and get its next five run times. No account, nothing stored, input never logged.">
+  <style>
+    :root { color-scheme: light dark; }
+    body { margin: 0; font: 16px/1.5 system-ui, sans-serif; background: #f6f7f9; color: #16181d; }
+    main { max-width: 46rem; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+    h1 { font-size: 1.9rem; margin: 0 0 0.25rem; }
+    p.lead { margin: 0 0 1.5rem; color: #4a4f58; }
+    form { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: end; }
+    label { display: block; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em; color: #4a4f58; }
+    input { font: 1rem/1.4 ui-monospace, SFMono-Regular, Menlo, monospace; padding: 0.45rem 0.6rem; border: 1px solid #c6cad1; border-radius: 6px; background: #fff; color: inherit; }
+    #expr { width: 16rem; }
+    #tz { width: 9rem; }
+    button { font: 1rem/1.4 system-ui, sans-serif; padding: 0.5rem 1rem; border: 0; border-radius: 6px; background: #1f6feb; color: #fff; cursor: pointer; }
+    button:hover { background: #1a5fce; }
+    pre { margin-top: 1.5rem; padding: 1rem; background: #fff; border: 1px solid #d8dbe0; border-radius: 8px; white-space: pre-wrap; word-break: break-word; min-height: 4rem; }
+    .note { margin-top: 1rem; font-size: 0.85rem; color: #4a4f58; }
+    code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="note" style="background:#fff7e6;border:1px solid #f0c36d;padding:.6rem .8rem;border-radius:6px;">
+      <strong>POC hosting note (OmniStack):</strong> this page is served statically from GitHub Pages.
+      The <code>/api/explain</code> backend is <strong>not deployed here</strong>, so the form below will
+      report an error. The identical asset runs locally as documented in
+      <a href="README.md">README.md</a> (<code>scripts/run_local.sh start</code>, port 8099).
+      See <a href="openapi.json">openapi.json</a> and <a href="asset.yml">asset.yml</a> for the exact contract.
+    </p>
+    <h1>Cron Explain</h1>
+    <p class="lead">Turn a cron expression into a plain-language description and its next five run times.</p>
+    <form id="cron-form">
+      <div>
+        <label for="expr">Expression</label>
+        <input id="expr" name="expr" value="*/5 * * * *" autocomplete="off" spellcheck="false">
+      </div>
+      <div>
+        <label for="tz">Time zone</label>
+        <input id="tz" name="tz" value="UTC" autocomplete="off" spellcheck="false">
+      </div>
+      <button type="submit">Explain</button>
+    </form>
+    <pre id="out">Enter a cron expression and press Explain.</pre>
+    <p class="note">No account, nothing stored, input never logged.</p>
+  </main>
+  <script>
+    (function () {
+      "use strict";
+      var form = document.getElementById("cron-form");
+      var exprInput = document.getElementById("expr");
+      var tzInput = document.getElementById("tz");
+      var out = document.getElementById("out");
+      var labels = ["minute", "hour", "day of month", "month", "day of week"];
+
+      function breakdown(expr) {
+        var fields = expr.trim().split(/\s+/);
+        var lines = [];
+        for (var i = 0; i < fields.length && i < labels.length; i++) {
+          lines.push("  " + labels[i] + ": " + fields[i]);
+        }
+        return lines.join("\n");
+      }
+
+      function render(payload) {
+        var lines = [];
+        lines.push("Valid: " + payload.valid);
+        lines.push("Expression: " + payload.expr + "  (" + payload.tz + ")");
+        lines.push("Fields:");
+        lines.push(breakdown(payload.expr));
+        lines.push("Description: " + payload.description);
+        lines.push("Next " + payload.next_runs.length + " runs:");
+        for (var i = 0; i < payload.next_runs.length; i++) {
+          lines.push("  " + payload.next_runs[i]);
+        }
+        out.textContent = lines.join("\n");
+      }
+
+      function renderError(payload) {
+        out.textContent = "Error: " + payload.error + "\n" + payload.message;
+      }
+
+      form.addEventListener("submit", function (event) {
+        event.preventDefault();
+        out.textContent = "Working...";
+        fetch("/api/explain", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ expr: exprInput.value, tz: tzInput.value, count: 5 })
+        }).then(function (response) {
+          return response.json().then(function (payload) {
+            if (response.ok) {
+              render(payload);
+            } else {
+              renderError(payload);
+            }
+          });
+        }).catch(function () {
+          out.textContent = "Error: the request could not be completed.";
+        });
+      });
+    })();
+  </script>
+</body>
+</html>

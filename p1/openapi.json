@@ -1,0 +1,74 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "cron-explain",
+    "version": "1.0.0",
+    "description": "Stateless cron expression explainer. No account, no stored input, no PII."
+  },
+  "paths": {
+    "/": {
+      "get": {
+        "summary": "HTML page",
+        "responses": {
+          "200": {
+            "description": "The form and result block",
+            "content": {"text/html": {"schema": {"type": "string"}}}
+          }
+        }
+      }
+    },
+    "/api/explain": {
+      "post": {
+        "summary": "Explain a cron expression and list its next runs",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": ["expr"],
+                "properties": {
+                  "expr": {"type": "string"},
+                  "tz": {"type": "string", "default": "UTC"},
+                  "count": {"type": "integer", "default": 5, "minimum": 1, "maximum": 50}
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "A valid expression",
+            "content": {"application/json": {"schema": {"type": "object"}}}
+          },
+          "400": {
+            "description": "invalid_cron, invalid_timezone, invalid_count or invalid_json",
+            "content": {"application/json": {"schema": {"type": "object"}}}
+          }
+        }
+      }
+    },
+    "/api/health": {
+      "get": {
+        "summary": "Health status",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {"application/json": {"schema": {"type": "object"}}}
+          }
+        }
+      }
+    },
+    "/api/stats": {
+      "get": {
+        "summary": "Counters from the PII-free traffic log",
+        "responses": {
+          "200": {
+            "description": "total_calls, api_calls_7d, pageviews_7d, unique_visitors_7d",
+            "content": {"application/json": {"schema": {"type": "object"}}}
+          }
+        }
+      }
+    }
+  }
+}

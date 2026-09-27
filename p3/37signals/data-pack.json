@@ -1,0 +1,333 @@
+{
+  "slug": "37signals",
+  "deliverable_type": "company_intel_brief",
+  "client": {
+    "name": "OmniStack",
+    "email": "hermes@nexuslbs.org"
+  },
+  "target": {
+    "name": "37signals",
+    "domain": "37signals.com",
+    "country": "US"
+  },
+  "audience": "founder of a 5-person software consultancy evaluating small independent vendors and partnership targets",
+  "locale": "en",
+  "price": {
+    "amount": 150,
+    "currency": "USD"
+  },
+  "generated_at": "2026-09-27T00:00:00Z",
+  "agent": "dsh/researcher (tester, step B)",
+  "sections": [
+    {
+      "id": "company_overview",
+      "title": "Company overview",
+      "claims": [
+        {
+          "text": "37signals is an American web software company based in Chicago, Illinois, founded in 1999 by Jason Fried, Carlos Segura and Ernest Kim.",
+          "source_url": "https://en.wikipedia.org/wiki/37signals",
+          "source_title": "37signals - Wikipedia",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "It is privately held, and Wikipedia lists 34 employees as of 2021.",
+          "source_url": "https://en.wikipedia.org/wiki/37signals",
+          "source_title": "37signals - Wikipedia",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "Basecamp, the company's flagship project management product, was built out of 37signals' own need to manage client projects when it was still a design firm.",
+          "source_url": "https://basecamp.com/about",
+          "source_title": "Basecamp - Where we came from",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "37signals describes itself as having 27 profitable years in business, zero debt and private ownership.",
+          "source_url": "https://basecamp.com/pricing",
+          "source_title": "Basecamp - Pricing",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "id": "business_model_and_offer",
+      "title": "Business model and offer",
+      "claims": [
+        {
+          "text": "37signals sells web applications under several brands, including Basecamp, HEY, Fizzy and ONCE.",
+          "source_url": "https://37signals.com",
+          "source_title": "37signals",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "Basecamp charges fixed prices with no per-user fees, and Studio and higher plans include unlimited users.",
+          "source_url": "https://basecamp.com/pricing",
+          "source_title": "Basecamp - Pricing",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "The ONCE line is sold for one fixed price and is self-hosted by the customer; its first two products are Campfire for group chat and Writebook for publishing a book online.",
+          "source_url": "https://once.com",
+          "source_title": "ONCE - Introducing ONCE",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "Ruby on Rails, the open-source web framework created at 37signals, is maintained by a community of over six thousand contributors.",
+          "source_url": "https://rubyonrails.org",
+          "source_title": "Ruby on Rails: Accelerate your agents with convention over configuration",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "id": "pricing_signals",
+      "title": "Pricing signals",
+      "claims": [
+        {
+          "text": "Basecamp's plan ladder is Free (1 project, 1 GB storage, 5 users), Freelancer at $25 per month, Studio at $59 per month, Pro at $99 per month and Unlimited at $299 per month billed annually.",
+          "source_url": "https://basecamp.com/pricing",
+          "source_title": "Basecamp - Pricing",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "Basecamp says 2,026 organizations signed up in the last week and offers 10 percent off for registered 501(c)(3) non-profits and free use for K-12 and university class work.",
+          "source_url": "https://basecamp.com/pricing",
+          "source_title": "Basecamp - Pricing",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "HEY offers a 30-day free trial with no credit card required.",
+          "source_url": "https://hey.com",
+          "source_title": "HEY - A delightfully fresh take on email + calendar, from 37signals",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "ONCE is sold for one fixed price rather than a recurring subscription.",
+          "source_url": "https://once.com",
+          "source_title": "ONCE - Introducing ONCE",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "id": "tech_and_marketing_signals",
+      "title": "Tech and marketing signals",
+      "claims": [
+        {
+          "text": "Ruby on Rails was created by David Heinemeier Hansson for internal use at 37signals and publicly released in 2004.",
+          "source_url": "https://en.wikipedia.org/wiki/37signals",
+          "source_title": "37signals - Wikipedia",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "Rails 8.1.4 was released on September 24, 2026.",
+          "source_url": "https://rubyonrails.org",
+          "source_title": "Ruby on Rails: Accelerate your agents with convention over configuration",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "Basecamp's pricing page advertises bring-your-own AI agents, CLI access and ChatGPT/Claude connectors with MCP support planned.",
+          "source_url": "https://basecamp.com/pricing",
+          "source_title": "Basecamp - Pricing",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "37signals closed its long-running Signal v. Noise blog and moved its staff writers to their own HEY World blogs.",
+          "source_url": "https://signalvnoise.com",
+          "source_title": "Signal v. Noise is closed. | SvN",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "37signals maintains a public GitHub organization with open-source repositories including basecamp-sdk, hey-sdk, fizzy and once-campfire.",
+          "source_url": "https://github.com/basecamp",
+          "source_title": "37signals - GitHub",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "id": "buying_signals",
+      "title": "Buying signals",
+      "claims": [
+        {
+          "text": "In 2020 Apple rejected future updates to the HEY iOS app over in-app purchase rules, and 37signals publicly disputed the decision.",
+          "source_url": "https://www.theverge.com/2020/6/18/21296180/apple-hey-email-app-basecamp-rejection-response-controversy-antitrust-regulation",
+          "source_title": "Apple doubles down on controversial decision to reject email app Hey - The Verge",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "37signals markets Basecamp to bootstrappers, freelancers and small businesses and says it was started without outside funding.",
+          "source_url": "https://basecamp.com/pricing",
+          "source_title": "Basecamp - Pricing",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "37signals markets ONCE against SaaS subscription fatigue, arguing that customers should pay once and own the software.",
+          "source_url": "https://once.com",
+          "source_title": "ONCE - Introducing ONCE",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "id": "decision_makers_or_roles",
+      "title": "Decision makers or roles",
+      "claims": [
+        {
+          "text": "Jason Fried is a co-founder and CEO, and David Heinemeier Hansson is a co-founder and CTO; both are listed as key people.",
+          "source_url": "https://en.wikipedia.org/wiki/37signals",
+          "source_title": "37signals - Wikipedia",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "The founding team was Jason Fried, Carlos Segura and Ernest Kim in 1999.",
+          "source_url": "https://en.wikipedia.org/wiki/37signals",
+          "source_title": "37signals - Wikipedia",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "Jason Fried writes publicly on HEY World, where he describes himself as co-founder and CEO of 37signals, makers of Basecamp and HEY.",
+          "source_url": "https://world.hey.com/jason",
+          "source_title": "Jason Fried - HEY World",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "Basecamp advertises direct access to the CEO via email as part of its customer service.",
+          "source_url": "https://basecamp.com/pricing",
+          "source_title": "Basecamp - Pricing",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "id": "outreach_angles",
+      "title": "Outreach angles",
+      "claims": [
+        {
+          "text": "Cost predictability: Basecamp's fixed prices and no per-user fees contrast with seat-based subscription competitors.",
+          "source_url": "https://basecamp.com/pricing",
+          "source_title": "Basecamp - Pricing",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "Ownership: ONCE sells self-hosted software for a one-time price to buyers tired of recurring subscriptions.",
+          "source_url": "https://once.com",
+          "source_title": "ONCE - Introducing ONCE",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "Durability: 37signals has operated for 27 years, is privately held and carries no debt, which it uses as a trust signal.",
+          "source_url": "https://basecamp.com/pricing",
+          "source_title": "Basecamp - Pricing",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "Product breadth: an independent company sells Basecamp, HEY, Fizzy and ONCE under one roof.",
+          "source_url": "https://37signals.com",
+          "source_title": "37signals",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "id": "unknowns",
+      "title": "Unknowns",
+      "claims": [
+        {
+          "text": "UNKNOWN: 37signals does not publish revenue, profit or valuation figures, and no reliable public number was found.",
+          "source_url": "",
+          "source_title": "",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "UNKNOWN: Current headcount; the only public figure found is 34 employees (2021).",
+          "source_url": "",
+          "source_title": "",
+          "accessed": "2026-09-27"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/37signals",
+      "title": "37signals - Wikipedia",
+      "accessed": "2026-09-27"
+    },
+    {
+      "url": "https://basecamp.com/about",
+      "title": "Basecamp - Where we came from",
+      "accessed": "2026-09-27"
+    },
+    {
+      "url": "https://basecamp.com/pricing",
+      "title": "Basecamp - Pricing",
+      "accessed": "2026-09-27"
+    },
+    {
+      "url": "https://37signals.com",
+      "title": "37signals",
+      "accessed": "2026-09-27"
+    },
+    {
+      "url": "https://once.com",
+      "title": "ONCE - Introducing ONCE",
+      "accessed": "2026-09-27"
+    },
+    {
+      "url": "https://rubyonrails.org",
+      "title": "Ruby on Rails: Accelerate your agents with convention over configuration",
+      "accessed": "2026-09-27"
+    },
+    {
+      "url": "https://hey.com",
+      "title": "HEY - A delightfully fresh take on email + calendar, from 37signals",
+      "accessed": "2026-09-27"
+    },
+    {
+      "url": "https://signalvnoise.com",
+      "title": "Signal v. Noise is closed. | SvN",
+      "accessed": "2026-09-27"
+    },
+    {
+      "url": "https://github.com/basecamp",
+      "title": "37signals - GitHub",
+      "accessed": "2026-09-27"
+    },
+    {
+      "url": "https://www.theverge.com/2020/6/18/21296180/apple-hey-email-app-basecamp-rejection-response-controversy-antitrust-regulation",
+      "title": "Apple doubles down on controversial decision to reject email app Hey - The Verge",
+      "accessed": "2026-09-27"
+    },
+    {
+      "url": "https://world.hey.com/jason",
+      "title": "Jason Fried - HEY World",
+      "accessed": "2026-09-27"
+    }
+  ],
+  "unknowns": [
+    "37signals does not publish revenue, profit or valuation figures, and no reliable public number was found.",
+    "Current headcount; the only public figure found is 34 employees (2021)."
+  ],
+  "outreach_angles": [
+    {
+      "angle": "Cost predictability",
+      "why": "Basecamp's fixed prices with no per-user fees are a concrete contrast to seat-based competitors.",
+      "source_url": "https://basecamp.com/pricing"
+    },
+    {
+      "angle": "Software ownership",
+      "why": "ONCE is sold once and self-hosted, which speaks to buyers tired of recurring subscriptions.",
+      "source_url": "https://once.com"
+    },
+    {
+      "angle": "Independent durability",
+      "why": "27 years, zero debt and private ownership are trust signals for small-business buyers.",
+      "source_url": "https://basecamp.com/pricing"
+    }
+  ],
+  "icp_fit": {
+    "level": "high",
+    "reason": "37signals is a small, privately held software company (34 employees in 2021) with public pricing and products, an ideal independent-vendor profile for a company intelligence brief."
+  }
+}

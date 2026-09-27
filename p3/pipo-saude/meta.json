@@ -1,0 +1,13 @@
+{
+  "slug": "pipo-saude",
+  "target": "Pipo Saude",
+  "domain": "piposaude.com.br",
+  "price": {
+    "amount": 150,
+    "currency": "USD"
+  },
+  "date": "2026-09-27",
+  "page": "pipo-saude/brief.html",
+  "checkout_url": "http://127.0.0.1:8799/pay/MOCKCO_20260927052123_0001",
+  "provider": "test"
+}

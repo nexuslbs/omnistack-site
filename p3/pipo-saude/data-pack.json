@@ -1,0 +1,290 @@
+{
+  "slug": "pipo-saude",
+  "deliverable_type": "company_intel_brief",
+  "client": {
+    "name": "OmniStack",
+    "email": "hermes@nexuslbs.org"
+  },
+  "target": {
+    "name": "Pipo Saude",
+    "domain": "piposaude.com.br",
+    "country": "BR"
+  },
+  "audience": "founder of a 5-person agency doing outbound to e-commerce brands",
+  "locale": "en",
+  "price": {
+    "amount": 150,
+    "currency": "USD"
+  },
+  "generated_at": "2026-09-27T00:00:00Z",
+  "agent": "dsh/researcher (tester-normalised 2026-09-27)",
+  "sections": [
+    {
+      "id": "company_overview",
+      "title": "Company overview",
+      "claims": [
+        {
+          "text": "Pipo Saude is a Brazilian digital health benefits company founded in 2019 and based in Sao Paulo.",
+          "source_url": "https://kaszek.com/portfolio/pipo-saude",
+          "source_title": "Pipo Saude - Kaszek",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "Its platform lets companies buy and manage health plans, dental plans, primary care and wellness in a single place, designed for HR teams and employees.",
+          "source_url": "https://onevc.vc/portfolio/pipo-saude",
+          "source_title": "Pipo Saude | ONEVC Portfolio",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "Pipo Saude raised a $4.6M seed round led by Monashees and Kaszek Ventures, with ONEVC also participating, announced in June 2020.",
+          "source_url": "https://latamlist.com/healthtech-pipo-saude-raises-4-6m-from-monashees-kaszek-and-onevc/",
+          "source_title": "Healthtech Pipo Saude raises $4.6M from Monashees, Kaszek, and ONEVC - LatamList",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "id": "business_model_and_offer",
+      "title": "Business model and offer",
+      "claims": [
+        {
+          "text": "Pipo operates as a digital brokerage that sells and manages healthcare benefits for companies, ranging from insurance to mental health.",
+          "source_url": "https://kaszek.com/portfolio/pipo-saude",
+          "source_title": "Pipo Saude - Kaszek",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "The company says it uses technology and data to fight poor service, bureaucracy and opaqueness in a Brazilian corporate health market it estimates at BRL 480B.",
+          "source_url": "https://onevc.vc/portfolio/pipo-saude",
+          "source_title": "Pipo Saude | ONEVC Portfolio",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "Pipo earns a recurring brokerage commission on insurance sales, reported at around 5 percent of the insurance value.",
+          "source_url": "https://fusoesaquisicoes.com/acontece-no-setor/pipo-compra-corretora-de-saude-da-convenia/",
+          "source_title": "Pipo compra corretora de saude da Convenia - Portal Fusoes e Aquisicoes",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "In January 2023 Pipo made its first acquisition, buying HRTech Convenia's health benefits brokerage operation, which had more than 40 clients and 11,000 covered lives.",
+          "source_url": "https://www.soutocorrea.com.br/noticias/assessoramos-o-primeiro-ma-da-pipo-saude-corretora-digital-de-saude-e-beneficios-corporativos/",
+          "source_title": "Assessoramos o primeiro M&A da Pipo Saude, corretora digital de saude e beneficios corporativos - Souto Correa Advogados",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "id": "pricing_signals",
+      "title": "Pricing signals",
+      "claims": [
+        {
+          "text": "In July 2021 Pipo Saude raised a $20 million Series A led by Thrive Capital, with Atlantico, Monashees, Kaszek and OneVC participating.",
+          "source_url": "https://techcrunch.com/2021/07/28/joshua-kushners-thrive-capital-leads-20m-investment-in-brazilian-healthcare-startup-pipo-saude/",
+          "source_title": "Joshua Kushner's Thrive Capital leads $20M investment in Brazilian healthcare startup Pipo Saude - TechCrunch",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "In August 2024 Pipo Saude raised a third round of R$35 million to accelerate growth, with Enseada, Scale Up Ventures and FJ Labs joining existing investors Thrive Capital, Monashees and Kaszek.",
+          "source_url": "https://revistaapolice.com.br/2024/08/pipo-saude-capta-r-35-milhoes-para-acelerar-crescimento/",
+          "source_title": "Pipo Saude capta R$ 35 milhoes para acelerar crescimento - Revista Apolice",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "The August 2024 round was announced as an extension of Pipo's Series A, after the company raised R$120 million in July 2021.",
+          "source_url": "https://www.insurtalks.com.br/posts/pipo-saude-levanta-mais-r-35m-em-investimento",
+          "source_title": "Pipo Saude levanta mais R$ 35M em investimento - Insurtalks",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "Saude Business reported the R$35 million third round in August 2024, when the company projected reaching 200,000 lives under management by the end of 2024.",
+          "source_url": "https://saudebusiness.com/mercado/pipo-saude-recebe-aporte-de-r35-milhoes-para-impulsionar-expansao-estrategica/",
+          "source_title": "Pipo Saude recebe aporte de R$35 milhoes para impulsionar expansao estrategica - Saude Business",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "id": "tech_and_marketing_signals",
+      "title": "Tech and marketing signals",
+      "claims": [
+        {
+          "text": "Pipo offers an API and a centralized HR platform that integrates with payroll; it says employees access benefits faster and HR spends 66 percent less time on benefit operations.",
+          "source_url": "https://www.piposaude.com.br/produtos",
+          "source_title": "Produtos | Pipo Saude - Corretora de planos de saude empresariais",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "Pipo markets Pipo Cuida, a health management program with 24h telecare that reports a 9 percent reduction in health plan cost and 96 percent satisfaction.",
+          "source_url": "https://www.piposaude.com.br/pipo-cuida",
+          "source_title": "Pipo Cuida - Controle a sinistralidade e previna os custos com plano de saude | Pipo Saude",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "id": "buying_signals",
+      "title": "Buying signals",
+      "claims": [
+        {
+          "text": "Pipo says health care is the second largest corporate expense in Brazil after payroll, and that traditional brokers underdeliver, giving companies a reason to switch.",
+          "source_url": "https://onevc.vc/portfolio/pipo-saude",
+          "source_title": "Pipo Saude | ONEVC Portfolio",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "Companies looking to simplify benefits management and control costs fit Pipo: the site promises faster access to benefits and less manual work for HR.",
+          "source_url": "https://www.piposaude.com.br/produtos",
+          "source_title": "Produtos | Pipo Saude - Corretora de planos de saude empresariais",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "id": "decision_makers_or_roles",
+      "title": "Decision makers or roles",
+      "claims": [
+        {
+          "text": "Pipo was founded in July 2019 by Manoela Mitchell (CEO), Thiago Torres (COO) and Vinicius Correa (CTO).",
+          "source_url": "https://techcrunch.com/2021/07/28/joshua-kushners-thrive-capital-leads-20m-investment-in-brazilian-healthcare-startup-pipo-saude/",
+          "source_title": "Joshua Kushner's Thrive Capital leads $20M investment in Brazilian healthcare startup Pipo Saude - TechCrunch",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "Pipo's platform is designed for HR teams and employees, making HR the operational buyer and employees the end beneficiaries.",
+          "source_url": "https://onevc.vc/portfolio/pipo-saude",
+          "source_title": "Pipo Saude | ONEVC Portfolio",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "id": "outreach_angles",
+      "title": "Outreach angles",
+      "claims": [
+        {
+          "text": "Simplify health benefits: Pipo offers a technology driven platform to buy and manage health, dental, primary care and wellness plans in one place.",
+          "source_url": "https://www.piposaude.com.br/produtos",
+          "source_title": "Produtos | Pipo Saude - Corretora de planos de saude empresariais",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "Control healthcare costs: Pipo Cuida is a prevention and claims management service that reports a 9 percent reduction in plan cost for participating clients.",
+          "source_url": "https://www.piposaude.com.br/pipo-cuida",
+          "source_title": "Pipo Cuida - Controle a sinistralidade e previna os custos com plano de saude | Pipo Saude",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "Scale proof: Pipo reports 215 client companies, 275,000 lives covered and 93 percent customer satisfaction.",
+          "source_url": "https://www.piposaude.com.br/sobre-a-pipo",
+          "source_title": "A Corretora de Saude que cuida de gente | Pipo Saude",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "id": "unknowns",
+      "title": "Unknowns",
+      "claims": [
+        {
+          "text": "UNKNOWN: Specific pricing structure for 'Pipo Cuida' or other management platform fees for businesses.",
+          "source_url": "",
+          "source_title": "",
+          "accessed": "2026-09-27"
+        },
+        {
+          "text": "UNKNOWN: Detailed market share of Pipo Saude within the Brazilian health tech and health benefits brokerage sector.",
+          "source_url": "",
+          "source_title": "",
+          "accessed": "2026-09-27"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://kaszek.com/portfolio/pipo-saude",
+      "title": "Pipo Saude - Kaszek",
+      "accessed": "2026-09-27"
+    },
+    {
+      "url": "https://onevc.vc/portfolio/pipo-saude",
+      "title": "Pipo Saude | ONEVC Portfolio",
+      "accessed": "2026-09-27"
+    },
+    {
+      "url": "https://latamlist.com/healthtech-pipo-saude-raises-4-6m-from-monashees-kaszek-and-onevc/",
+      "title": "Healthtech Pipo Saude raises $4.6M from Monashees, Kaszek, and ONEVC - LatamList",
+      "accessed": "2026-09-27"
+    },
+    {
+      "url": "https://fusoesaquisicoes.com/acontece-no-setor/pipo-compra-corretora-de-saude-da-convenia/",
+      "title": "Pipo compra corretora de saude da Convenia - Portal Fusoes e Aquisicoes",
+      "accessed": "2026-09-27"
+    },
+    {
+      "url": "https://www.soutocorrea.com.br/noticias/assessoramos-o-primeiro-ma-da-pipo-saude-corretora-digital-de-saude-e-beneficios-corporativos/",
+      "title": "Assessoramos o primeiro M&A da Pipo Saude, corretora digital de saude e beneficios corporativos - Souto Correa Advogados",
+      "accessed": "2026-09-27"
+    },
+    {
+      "url": "https://techcrunch.com/2021/07/28/joshua-kushners-thrive-capital-leads-20m-investment-in-brazilian-healthcare-startup-pipo-saude/",
+      "title": "Joshua Kushner's Thrive Capital leads $20M investment in Brazilian healthcare startup Pipo Saude - TechCrunch",
+      "accessed": "2026-09-27"
+    },
+    {
+      "url": "https://revistaapolice.com.br/2024/08/pipo-saude-capta-r-35-milhoes-para-acelerar-crescimento/",
+      "title": "Pipo Saude capta R$ 35 milhoes para acelerar crescimento - Revista Apolice",
+      "accessed": "2026-09-27"
+    },
+    {
+      "url": "https://www.insurtalks.com.br/posts/pipo-saude-levanta-mais-r-35m-em-investimento",
+      "title": "Pipo Saude levanta mais R$ 35M em investimento - Insurtalks",
+      "accessed": "2026-09-27"
+    },
+    {
+      "url": "https://saudebusiness.com/mercado/pipo-saude-recebe-aporte-de-r35-milhoes-para-impulsionar-expansao-estrategica/",
+      "title": "Pipo Saude recebe aporte de R$35 milhoes para impulsionar expansao estrategica - Saude Business",
+      "accessed": "2026-09-27"
+    },
+    {
+      "url": "https://www.piposaude.com.br/produtos",
+      "title": "Produtos | Pipo Saude - Corretora de planos de saude empresariais",
+      "accessed": "2026-09-27"
+    },
+    {
+      "url": "https://www.piposaude.com.br/pipo-cuida",
+      "title": "Pipo Cuida - Controle a sinistralidade e previna os custos com plano de saude | Pipo Saude",
+      "accessed": "2026-09-27"
+    },
+    {
+      "url": "https://www.piposaude.com.br/sobre-a-pipo",
+      "title": "A Corretora de Saude que cuida de gente | Pipo Saude",
+      "accessed": "2026-09-27"
+    }
+  ],
+  "unknowns": [
+    "Specific pricing structure for 'Pipo Cuida' or other management platform fees for businesses.",
+    "Detailed market share of Pipo Saude within the Brazilian health tech and health benefits brokerage sector."
+  ],
+  "outreach_angles": [
+    {
+      "angle": "Lead with benefit-management time savings",
+      "why": "Pipo's product page claims HR teams spend 66 percent less time on benefit operations, a concrete hook for an HR buyer.",
+      "source_url": "https://www.piposaude.com.br/produtos"
+    },
+    {
+      "angle": "Lead with healthcare cost control",
+      "why": "Pipo Cuida is marketed around prevention and claims control with a reported 9 percent cost reduction.",
+      "source_url": "https://www.piposaude.com.br/pipo-cuida"
+    },
+    {
+      "angle": "Lead with scale and satisfaction",
+      "why": "Pipo publishes 215 clients, 275,000 lives and 93 percent satisfaction, useful social proof.",
+      "source_url": "https://www.piposaude.com.br/sobre-a-pipo"
+    }
+  ],
+  "icp_fit": {
+    "level": "high",
+    "reason": "Pipo Saude is a B2B healthtech in Brazil whose buyers are the HR, finance and founder roles that a company-intelligence brief targets, and its public numbers are verifiable."
+  }
+}

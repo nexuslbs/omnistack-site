@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OmniStack</title>
+<style>
+  :root { color-scheme: light dark; --accent:#0b6b53; }
+  body { margin:0; padding:2.5rem 1.25rem; font:16px/1.55 system-ui, sans-serif; background:#f6f7f9; color:#16181d; }
+  main { max-width:46rem; margin:0 auto; }
+  h1 { font-size:2rem; margin:0 0 .25rem; }
+  .lead { color:#4a4f58; margin:0 0 1.5rem; }
+  ul { list-style:none; padding:0; margin:0; }
+  li { border:1px solid #d8dbe0; border-radius:8px; background:#fff; padding:1rem 1.1rem; margin:.75rem 0; }
+  li h2 { font-size:1.1rem; margin:0 0 .3rem; }
+  li h2 a { color:var(--accent); text-decoration:none; }
+  li h2 a:hover { text-decoration:underline; }
+  li p { margin:.15rem 0; color:#4a4f58; font-size:.9rem; }
+  footer { margin-top:2rem; border-top:1px solid #d8dbe0; padding-top:.8rem; color:#6b7280; font-size:.8rem; }
+  code { font-family:ui-monospace, SFMono-Regular, Menlo, monospace; }
+</style>
+</head>
+<body>
+<main>
+  <h1>OmniStack</h1>
+  <p class="lead">Public proof-of-concept pages for two of the three built MVPs. Static hosting only.</p>
+  <ul>
+    <li>
+      <h2><a href="p3/">P3 &mdash; Brief Studio</a></h2>
+      <p>Delivered company-intelligence briefs, served as self-contained static pages.</p>
+      <p>Example: <a href="p3/demo-fixture/brief.html">demo-fixture/brief.html</a></p>
+    </li>
+    <li>
+      <h2><a href="p1/">P1 &mdash; cron-explain</a></h2>
+      <p>A stateless micro-API that explains a cron expression and lists its next five run times.</p>
+      <p>This POC serves only the asset's static page and contract; the API backend is not deployed on GitHub Pages.</p>
+    </li>
+  </ul>
+  <footer>
+    These are POC pages. See <a href="README.md">README.md</a> for what is served and the upstream sources.
+  </footer>
+</main>
+</body>
+</html>

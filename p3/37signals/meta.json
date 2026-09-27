@@ -1,0 +1,13 @@
+{
+  "slug": "37signals",
+  "target": "37signals",
+  "domain": "37signals.com",
+  "price": {
+    "amount": 150,
+    "currency": "USD"
+  },
+  "date": "2026-09-27",
+  "page": "37signals/brief.html",
+  "checkout_url": "http://127.0.0.1:8799/pay/MOCKCO_20260927052103_0001",
+  "provider": "test"
+}
